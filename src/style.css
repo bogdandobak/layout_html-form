@@ -1,0 +1,15 @@
+.form__inp {
+  margin: 10px 0;
+}
+
+.inp__last {
+  margin-bottom: 0;
+}
+
+.form__field {
+  margin-bottom: 20px;
+}
+
+.inp__first {
+  margin-top: 0;
+}
