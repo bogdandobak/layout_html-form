@@ -1,15 +1,15 @@
-.form__inp {
+.form__inputs {
   margin: 10px 0;
 }
 
-.form__inp:last-of-type {
+.form__inputs:last-of-type {
   margin-bottom: 0;
 }
 
-.form__field {
+.form__fieldset {
   margin-bottom: 20px;
 }
 
-.form__inp:first-of-type {
+.form__inputs:first-of-type {
   margin-top: 0;
 }
