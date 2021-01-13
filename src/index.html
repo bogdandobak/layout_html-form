@@ -9,36 +9,59 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="POST"
-    onsubmit="onSubmit()" autocomplete="off">
+    <form
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      method="POST"
+      onsubmit="onSubmit()"
+      autocomplete="off"
+    >
       <fieldset class="form__field">
         <legend>Personal inforamtion</legend>
         <div class="form__inp">
           <label for="lname">Surname:</label>
-          <input type="text" id="lname"
-          name="lname" autocomplete="off">
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            autocomplete="off"
+          >
         </div>
         <div class="form__inp">
           <label for="fname">Name</label>
-          <input type="text" id="fname"
-          name="fname" autocomplete="off">
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            autocomplete="off"
+          >
         </div>
         <div class="form__inp">
           <label for="age">How old are You?</label>
-          <input type="number" id="age"
-          name="age" min="12"
-            max="100" value="12">
+          <input
+            type="number"
+            id="age"
+            name="age"
+            min="12"
+            max="100"
+            value="12"
+          >
         </div>
         <div class="form__inp">
           <label for="birthday">Full date of birth:</label>
-          <input type="date" id="birthday"
-          name="birthday">
+          <input
+            type="date"
+            id="birthday"
+            name="birthday"
+          >
         </div>
         <div class="form__inp">
           <label for="agreement">I accept the term of the agreement
           </label>
-          <input type="checkbox" name="agreement"
-          id="agreement">
+          <input
+            type="checkbox"
+            name="agreement"
+            id="agreement"
+          >
         </div>
       </fieldset>
       </div>
@@ -46,42 +69,71 @@
         <legend>Registration</legend>
         <div class="form__inp">
           <label for="email">E-mail:</label>
-          <input type="email" name="email"
-          id="email" placeholder="email@example.com"
-          required>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="email@example.com"
+            required
+          >
         </div>
         <div class="form__inp">
           <label for="password">Password:</label>
-          <input type="password" name="password"
-          id="password" minlength="6"
-          maxlength="18" required>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            minlength="6"
+            maxlength="18"
+            required
+          >
         </div>
       </fieldset>
       <fieldset class="form__field">
         <legend>An interesting fact about you!</legend>
         <div class="form__inp inp__first">
           <label for="true">Do you love cats?</label>
-          <input type="radio" name="q_yes"
-          id="true" value="yes">
+          <input
+            type="radio"
+            name="q_yes"
+            id="true"
+            value="yes"
+          >
           <label for="true">Yes</label>
-          <input type="radio" name="q_no"
-          id="no" value="no">
+          <input
+            type="radio"
+            name="q_no"
+            id="no"
+            value="no"
+          >
           <label for="no">No</label>
         </div>
         <div class="form__inp">
           <label for="color">What is your favorite color?</label>
-          <input type="color" name="color"
-          id="color">
+          <input
+            type="color"
+            name="color"
+            id="color"
+          >
         </div>
         <div class="form__inp">
           <label for="time">What time do you go to bed?</label>
-          <input type="time" name="time"
-          id="time" step="1">
+          <input
+            type="time"
+            name="time"
+            id="time"
+            step="1"
+          >
         </div>
         <div class="form__inp">
-          <label for="cars">What are your favorite brand of cars?</label>
-          <select name="cars" id="cars"
-          size="4" multiple>
+          <label for="cars">What are your favorite brand of cars?
+          </label>
+          <select
+            name="cars"
+            id="cars"
+            size="4"
+            multiple
+          >
             <option value="BMW">BMV</option>
             <option value="Audi">Audi</option>
             <option value="Lada">Lada</option>
@@ -89,8 +141,12 @@
         </div>
         <div class="form__inp">
           <label for="rate">How do you rate our work?</label>
-          <input type="range" name="rate"
-            id="rate" value="0">
+          <input
+            type="range"
+            name="rate"
+            id="rate"
+            value="0"
+          >
         </div>
       </fieldset>
       </div>
@@ -98,14 +154,21 @@
         <legend>Additional info:</legend>
         <div class="form__inp">
           <label for="comments">Comments:</label>
-          <textarea name="comments" id="comments"
-          cols="20" rows="2"
-          autocomplete="off">
+          <textarea
+            name="comments"
+            id="comments"
+            cols="20"
+            rows="2"
+            autocomplete="off"
+          >
           </textarea>
         </div>
         <div class="form__inp">
           <label for="recommend">Would you recommend us?</label>
-          <select name="recommend" id="recommend">
+          <select
+            name="recommend"
+            id="recommend"
+          >
             <option value="yes">yes</option>
             <option value="no">no</option>
           </select>
@@ -113,7 +176,10 @@
       </fieldset>
       </div>
       <div class="form__inp">
-        <input type="submit" value="Submit">
+        <input
+          type="submit"
+          value="Submit"
+        >
       </div>
     </form>
     <script type="text/javascript" src="./main.js"></script>
